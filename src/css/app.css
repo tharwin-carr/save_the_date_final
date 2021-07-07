@@ -1,0 +1,24 @@
+@import 'navbar.css';
+@import 'buttons.css';
+@import 'hero.css';
+@import 'card.css';
+@import 'landingpage.css';
+@import 'footer.css';
+@import 'datespage.css';
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #eae7dc;
+	padding: 0;
+	margin: 0;
+}
+
+/*for desktop*/
+@media only screen and (min-width: 768px) {
+	.main__container {
+		font-size: 1.2em;
+		line-height: 1.8;
+	}
+}

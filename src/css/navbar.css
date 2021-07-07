@@ -1,0 +1,65 @@
+.nav-bar__container {
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.nav-bar__header {
+	padding: 10px;
+}
+
+.nav-bar__title {
+	cursor: pointer;
+	font-family: 'Rubik', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	background-color: #eae7dc;
+}
+
+.nav-bar__btn {
+	font-size: 16px;
+	cursor: pointer;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	border: 0.5px solid #8e8d8a;
+	padding: 5px 10px;
+}
+
+.nav-bar-links__container {
+	padding: 5px;
+}
+
+.nav-bar__btn:visited {
+	color: black;
+}
+
+.nav-bar__btn:hover {
+	color: #e98074;
+}
+
+.logo {
+	width: 16px;
+	height: 16px;
+}
+
+.nav-bar__title:visited {
+	color: black;
+}
+
+.nav-bar__title:hover {
+	color: #e98074;
+}
+
+.nav-bar__title:active {
+	color: #e98074;
+}
+
+.nav-bar__btn:active {
+	color: #e98074;
+}

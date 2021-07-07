@@ -1,0 +1,9 @@
+.btn {
+	font-weight: bold;
+	font-size: inherit;
+	padding: 5px 10px;
+	cursor: pointer;
+	background-color: #eae7dc;
+	border: 0.5px solid #8e8d8a;
+	font-family: 'Rubik', sans-serif;
+}
